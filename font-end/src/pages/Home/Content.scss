@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Patua+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+.StyleRoom{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.Modal{
+    background: red;
+    color: #000000;
+    margin: -16px;
+    border-radius: 8px ;
+}
+
+.Modal:hover{
+    background: orange;
+}
+
+.Standard{
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;      
+    }
+    &__item{
+        background: #FFFFFF;
+        width: 18%;
+        border: 1px solid #ABAFB7;
+        border-radius: 6px;
+        display: block;
+        width: 200px;
+        margin-left: 30px ;
+        margin-bottom: 30px;
+    }
+    &__name{
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 10px 25px 20px 25px;
+    }
+    &__status{
+        text-align: center;
+        justify-items: center;
+        padding: 0px 10px 0px 10px;
+        span{
+            padding-right: 10px;
+            margin-bottom: 10px;
+        }       
+    }
+    &__time{
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;      
+        color: #000000; 
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.lable{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-right: 40px;
+    color: #000000;
+}
+
+.view{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #BFC3CD;;
+}
